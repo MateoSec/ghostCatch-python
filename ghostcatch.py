@@ -12,17 +12,17 @@ if((len(sys.argv) > 1)):
     userEntry = sys.argv[1]
     if("-help" in userEntry):
         print ""
-        print "Usage: python ghostCatch.py <flag> <path>"
+        print "Usage: python ghostcatch.py <flag> <path>"
         print ""
         print "      -help   is the flag for usage"
-        print "              Example: python ghostCatch.py -help"
+        print "              Example: python ghostcatch.py -help"
         print ""
         print ""
         print "      -path   is the flag to specify path"
-        print "              Example: python ghostCatch.py -path /myPath"
+        print "              Example: python ghostcatch.py -path /myPath"
         print ""
         print "              To search entire system for server.xml files: "
-        print "              python ghostCatch.py -path default"
+        print "              python ghostcatch.py -path default"
         print ""
         exit(0)
     if("-path" in userEntry):
@@ -45,22 +45,22 @@ if((len(sys.argv) > 1)):
         else:
             print ""
             print "You added the -path flag but did not specify a path."
-            print "python ghostCatch.py -help for usage."
+            print "python ghostcatch.py -help for usage."
             print ""
             exit(0)
 else:
     print ""
-    print "Usage: python ghostCatch.py <flag> <path>"
+    print "Usage: python ghostcatch.py <flag> <path>"
     print ""
     print "      -help   is the flag for usage"
-    print "              Example: python ghostCatch.py -help"
+    print "              Example: python ghostcatch.py -help"
     print ""
     print ""
     print "      -path   is the flag to specify path"
-    print "              Example: python ghostCatch.py -path /myPath"
+    print "              Example: python ghostcatch.py -path /myPath"
     print ""
     print "              To search entire system for server.xml files: "
-    print "              python ghostCatch.py -path default"
+    print "              python ghostcatch.py -path default"
     print ""
     exit(0)
 
