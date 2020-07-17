@@ -7,7 +7,7 @@ Python 2.7
 Requires: 
 pip install progress
 
-Usage: python ghostCatch.py <flag> <path(optional)>
+Usage: python ghostCatch.py <flag1> <flag2>
 
       -help   is the flag for usage
               Example: python ghostCatch.py -help
